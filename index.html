@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, width=device-width">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="fonts.css">
+	<title>Tesla</title>
+</head>
+<body>
+<main class="main">
+<header class="header">	
+			<a href="#" class="header__logo">
+				<img class="logo__image" src="img/Tesla-Wordmark-Red.png" alt="">
+			</a>
+			<!-- Лишняя разметка
+				<div class="header__burger">
+					<span></span>
+				</div>	    
+
+			-->
+					<nav class="menu__links">
+						<ul class="list__items">
+							<li class="list__item">
+								<a class="menu__link menu__link_active" href="">
+									Model S
+								</a>
+							</li>
+							<li class="list__item">
+								<a class="menu__link menu__link-x" href="">
+									Model X
+								</a>
+							</li>
+							<li class="list__item">
+								<a class="menu__link menu__link-3" href="">
+									Model 3
+								</a>
+							</li>
+							<li class="list__item">
+								<a class="menu__link menu__link-roadster" href="">
+									Roadster
+								</a>
+							</li>
+							<li class="list__item">
+								<a class="menu__link menu__link-energy" href="">
+									Energy
+								</a>
+							</li>
+							<li class="list__item">
+								<a class="menu__link menu__link-shop" href="#">
+									Магазин
+								</a>
+							</li>
+							<li class="list__item">
+								<a class="menu__link menu__link-enter" href="#">
+									Войти
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<img class="logo__burger" src="img/menu.png">
+</header>
+
+
+
+  	<section class="welcome">
+  		<div class="welcome__container">  			
+  			<h1 class="welcome__title">
+  				Model S
+  			</h1>
+	  			<p class="welcome__text-future">
+	  				Добро пожаловать в будущее!
+	  			</p>					
+  		</div>
+  		<div class="welcome__items">
+				<div class="helper">
+					<div class="welcome__item-speed">
+						
+							<img class="welcome__icon-speed" src="img/Speed.png">
+						
+						<div class="welcome__speed-text">
+							<p class="welcome__number-speed">
+								2,7
+									<span class="welcome__dimension-speed">сек</span> 
+							</p>
+							<p class="welcome__description-speed">
+								0-100 км/час
+							</p>
+						</div>
+					</div>
+					<div class="welcome__item-road">
+							<img class="welcome__icon-road" src="img/Road icon.png">
+						<div class="welcome__road-text">
+							<p class="welcome__number-road">
+								632 
+									<span class="welcome__dimension-road">км</span> 
+							</p>
+							<p class="welcome__description-road">
+								запас хода
+							</p>
+						</div>
+				</div>
+			</div>
+  			
+  			
+			<div class="welcome__item-wheel">
+  				<img class="welcome__icon-wheel" src="img/steering-wheel.png">
+	  				<span class="welcome__item-text">
+	  					Тест драйв
+						</span>
+						<!-- Это ссылка, потому что она по задумке ведет на другую страницу. -->
+	  			<button class="button">
+	  				Заказать
+	  			</button>
+
+  			</div>
+  			
+  		</div>
+
+		</section>	
+<!--
+	<section class="control-panel">
+		<h1 class="control-panel__title">
+			Model S
+		</h1>
+		<img class="control-panel__image" src="img/2013-tesla-model-s-cockpit.png">
+		<div class="control-panel__rectangle">
+			<h1 class="control-panel__title control-panel__title_rectangle">
+				Будущее вождения
+			</h1>
+				<p class="control-panel__rectangle_text">
+					Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.
+				</p>
+					<div class="control-panel__items">
+  						<img class="control-panel__item-icon" src="img/display.png">
+	  						<p class="control-panel__item-number">
+	  							17 
+	  						</p>
+	  						<p class="control-panel__item-dimension">
+	  							дюймов
+		  					</p>
+		  					<p class="control-panel__item-description">
+		  						Большой дисплей
+		  					</p>
+  					</div>
+  					<div class="control-panel__items">
+  						<img class="control-panel__item-icon" src="img/wireless.png">
+	  						<p class="control-panel__item-dimension">
+	  							Беспроводное обновление ПО
+		  					</p>
+		  					<p class="control-panel__item-description">
+		  						Повышенная функциональность
+		  					</p>
+  					</div>
+  					<div class="control-panel__items">
+  						<img class="control-panel__item-icon" src="img/battery.png">
+	  						<p class="control-panel__item-number">
+	  							894  
+	  						</p>
+	  						<p class="control-panel__item-dimension">
+	  							литра
+		  					</p>
+		  					<p class="control-panel__item-description">
+		  						Объем грузового пространства
+		  					</p>
+  					</div>
+  					<div class="control-panel__items">
+  						<img class="control-panel__item-icon" src="img/info.png">
+	  						<p class="control-panel__item-info">
+	  							УЗНАТЬ БОЛЬШЕ  
+	  						</p>
+  					</div>
+  					<button class="button button__control-panel_white">
+  						Заказать
+  					</button>
+		</div>
+	</section>
+	<section class="safety">
+		<div class="safety__rectangle">
+			<h1 class="safety__title">
+				Самый безопасный автомобиль в мире
+			</h1>
+				<p class="safety__rectangle_text">
+					Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто..
+				</p>
+					<h1 class="safety__title safety__title_rate">
+						Оценка защиты: 
+					</h1>
+						<div class="safety__items-front">
+							<p class="safety__paragraph">СПЕРЕДИ</p>
+							<img class="safety__front-star" src="img/Star.png">
+							<img class="safety__front-star" src="img/Star-1.png">
+							<img class="safety__front-star" src="img/Star-2.png">
+							<img class="safety__front-star" src="img/Star-3.png">
+							<img class="safety__front-star" src="img/Star-4.png">
+						</div>
+						<div class="safety__items-side">
+							<p class="safety__paragraph">СБОКУ</p>
+							<img class="safety__side-star" src="img/Star-5.png">
+							<img class="safety__side-star" src="img/Star-6.png">
+							<img class="safety__side-star" src="img/Star-7.png">
+							<img class="safety__side-star" src="img/Star-8.png">
+							<img class="safety__side-star" src="img/Star-9.png">
+						</div>
+						<div class="safety__items-pillar">
+							<p class="safety__paragraph">СБОКУ (стойка)</p>
+							<img class="safety__pillar-star" src="img/Star-10.png">
+							<img class="safety__pillar-star" src="img/Star-11.png">
+							<img class="safety__pillar-star" src="img/Star-12.png">
+							<img class="safety__pillar-star" src="img/Star-13.png">
+							<img class="safety__pillar-star" src="img/Star-14.png">
+						</div>
+						<div class="safety__items-driver">
+							<p class="container__paragraph">ВОДИТЕЛЬ</p>
+							<img class="safety__driver-star" src="img/Star-15.png">
+							<img class="safety__driver-star" src="img/Star-16.png">
+							<img class="safety__driver-star" src="img/Star-17.png">
+							<img class="safety__driver-star" src="img/Star-18.png">
+							<img class="safety__driver-star" src="img/Star-19.png">
+						</div>
+						<div class="safety__items-passenger">
+							<p class="safety__paragraph">ПАССАЖИР</p>
+							<img class="safety__passenger-star" src="img/Star-20.png">
+							<img class="safety__passenger-star" src="img/Star-21.png">
+							<img class="safety__passenger-star" src="img/Star-22.png">
+							<img class="safety__passenger-star" src="img/Star-23.png">
+							<img class="safety__passenger-star" src="img/Star-24.png">
+						</div>
+							<div class="safety__rate">
+								<img class="safety__rate-icon" src="img/safety.png">
+								<p class="safety__rate-title">
+									5 звезд
+								</p>
+								<p class="safety__rate-text">
+									безопасности
+								</p>
+							</div>
+							<div class="safety__item">
+		  						<img class="safety__item-icon" src="img/info.png">
+			  						<p class="safety__item-info">
+			  							УЗНАТЬ БОЛЬШЕ  
+			  						</p>
+			  				</div>
+			  					<button class="button button__safety_white">
+			  						Заказать
+			  					</button>
+		</div>
+		<div class="safety__image">
+			<img class="safety__img-background" src="img/Model S.png">
+			<img class="safety__img-model" src="img/Car frame group.png">
+		</div>
+	</section>
+</main>
+-->
+</body>
+</html> 

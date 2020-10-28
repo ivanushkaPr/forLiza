@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat.eot');
+	src: local('☺'), url('../fonts/Montserrat.woff') format('woff'), url('fonts/Montserrat.ttf') format('truetype'), url('fonts/Montserrat.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat-SemiBold';
+	src: url('../fonts/Montserrat-SemiBold.eot');
+	src: local('☺'), url('../fonts/Montserrat-SemiBold.woff') format('woff'), url('fonts/Montserrat-SemiBold.ttf') format('truetype'), url('fonts/Montserrat-SemiBold.svg') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+
+.menu__links {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 18px;
+}
+
+.welcome__text-future {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+}
+.welcome__number-road {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 43px;
+}
+.welcome__number-speed {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 43px;
+}
+
+.welcome__dimension-speed {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+}
+.welcome__dimension-road {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+}
+.welcome__description-speed {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+}
+.welcome__description-road {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+}
+.welcome__item-text {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.button {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.control-panel__title {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 70px;
+	line-height: 85px;
+}
+.control-panel__title control-panel__title_rectangle {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 10px;
+	line-height: 37px;
+	color: #FFFFFF;
+}
+.control-panel__rectangle_text {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+	color: #FFFFFF
+}
+.control-panel__item-number {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 43px;
+	color: #FFFFFF;
+}
+.control-panel__item-dimension {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+.control-panel__item-description {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+	color: #FFFFFF;
+}
+.control-panel__item-info {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.button button__control-panel_white {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.safety__title {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 37px;
+	color: #FFFFFF;
+}
+.safety__rectangle_text {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+	color: #FFFFFF;
+}
+.safety__title safety__title_rate {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 37px;
+	color: #FFFFFF;
+}
+.safety__paragraph {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 21px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.safety__rate-title {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 50px;
+	line-height: 61px;
+	color: #FFFFFF;
+}
+.safety__rate-text {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+.safety__item-info {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.button button__safety_white {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}

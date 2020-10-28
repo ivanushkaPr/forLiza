@@ -1,0 +1,222 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+/*лого и меню*/
+.header {
+	/* Убрать все что ниже 
+	width: 100%;
+
+
+	top: 0;
+	left: 0;
+	z-index: 50;
+	*/
+	margin-top: 24px;
+	margin-left: 42px;
+	margin-right: 18px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/* Этот кусок не нужен.
+	justify-content: end;
+	*/
+}
+
+	/* Все удалить 
+.container {
+
+	width: 1440px;
+	margin: 0 auto;
+	display: flex;
+}
+*/
+/*
+.header__nav {
+	display: flex;
+	align-items: center;
+	justify-content: end;
+}
+*/
+
+.logo__image {
+	/*
+	display: block;
+	*/
+	/* Блочные элементы занимают всю ширину родителя или растягивают его по ширине.
+	img 
+	max-width: 100%;
+	*/
+	/*
+	Устаревшие свойства.
+	float: left;
+	*/
+/*
+	margin-right: 250px;
+	*/
+	padding-right: 258px;
+}
+.list__items {
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+}
+.list__item {
+	margin: 0 auto;
+}
+.menu__link {
+	text-decoration: none;
+	color: #000;
+	white-space: nowrap;
+}
+
+.logo__burger {
+	margin: auto 43px auto 0;
+}
+.menu__link_active {
+	color: #E51937;
+  padding-bottom: 6px;
+  	border-bottom: 2px solid #E51937;
+		border-radius: 2px;
+		margin-right: 63px;
+}
+.menu__link-x {
+	margin-right: 26px;
+}
+.menu__link-3 {
+	margin-right: 45px;
+}
+.menu__link-roadster {
+	margin-right: 45px;
+}
+.menu__link-energy {
+	margin-right: 220px;
+}
+.menu__link-shop {
+	margin-right: 30px;
+}
+.menu__link-enter {
+	margin-right: 30px;
+}
+.menu__link:hover {
+  	border-bottom: 2px solid #E51937;
+  	color: #E51937;
+  	padding-bottom: 6px;
+  	transition: width .2s linear;
+}
+#menu-checkbox {
+	display: none;
+}
+/*Первый блок*/
+.welcome {
+	background-image: url(img/Teslalogo+car.png);
+	display: inline-block;
+	/*
+	background-position: center;
+	vertical-align: middle;
+	width: 100%;
+	
+
+	*/
+	background-position: center 25px;
+	margin: 30px auto;
+}
+.welcome__container {
+	width: 1440px;
+	margin: 0 auto;
+	align-items: center;
+}
+.welcome__title {
+	text-align: center;
+	/* margin-bottom auto не работает. 
+	margin-bottom: auto;
+	*/
+	margin-top: 34px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 90px;
+	line-height: 91px;
+}
+.welcome__text-future {
+	text-align: center;
+}
+.welcome__items {
+	display: flex;
+	margin: 502px auto 0 auto;
+	max-width: 799px;
+  justify-content: space-between;
+}
+
+.helper {
+	display: flex;
+	display: flex;
+  justify-content: space-between;
+  min-width: 372px;
+}
+.welcome__item-speed {
+	display: flex;
+	/*
+	margin-right: 68px;
+	*/
+}
+
+.welcome__icon-speed {
+	width: 54px;
+	height: 42px;
+	margin-right: 9px;
+	padding-top: 12px;
+}
+.welcome__dimension-speed {
+	display: inline-block;
+	margin-right: auto;
+}
+.welcome__road-img {
+	margin-right: 7px;
+}
+.welcome__icon-road {
+	margin: 8px 0px 0px 4px;
+}
+.welcome__item-road {
+	display: flex;
+	/*
+	margin-right: 95px;
+	*/
+}
+.welcome__item-wheel {
+	display: inline-flex;
+	text-align: center;
+}
+.welcome__icon-wheel {
+	width: 22px;
+    height: 22px;
+    margin: 19px 7px auto 4px;
+}
+.welcome__item-text {
+	display: flex;
+    margin: 22px 42px auto 0px;
+}
+.button {
+	display: inline-block;
+	width: 160px;
+	height: 40px;
+	border: 2px solid #E51937;
+	box-sizing: border-box;
+	background-color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	color: #E51937;
+	text-decoration: none;
+	top: 50%;
+	cursor: pointer;
+	margin: 10px auto;
+}
+.button:hover {
+	color: #E51937;
+}
+
+.control-panel {
+	padding-top: 500px;
+}
